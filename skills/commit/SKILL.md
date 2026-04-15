@@ -1,6 +1,6 @@
 ---
 name: commit
-description: Automatically generate commit messages based on code changes, and commit your changes.
+description: Create a git commit, automatically generate commit messages based on code changes.
 disable-model-invocation: true
 allowed-tools: Read Write Bash
 ---

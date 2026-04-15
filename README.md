@@ -1,6 +1,32 @@
 # Commit Plugin for Claude Code
 
-基于 Claude Code 的自动提交信息生成与提交插件，可根据代码变更生成符合规范的提交信息。
+An automatic git commit plugin for Claude Code, which can generate standardized commit messages based on code changes.
+
+## Features
+
+- **Automatic commit message generation**: Analyzes staged code changes to generate standardized commit messages
+- **Multi-language support**: Supports generating commit messages in both Chinese and English
+- **Interactive confirmation flow**: Provides multiple confirmation options to ensure accurate commit messages
+- **Best practices compliant**: Generates high-quality commit messages based on Google Engineering Practices CL description rules
+- **Flexible editing options**: Supports auto-generated, user-edited, or manually modified commit messages
+
+## Usage Example
+
+Invoke the commit skill in Claude Code:
+
+```
+/commit-plugin:commit
+```
+
+## References
+
+- [Google Engineering Practices - CL Descriptions](https://github.com/google/eng-practices/blob/master/review/developer/cl-descriptions.md)
+
+---
+
+# Commit Plugin for Claude Code
+
+基于 Claude Code 的 git commit 插件，可根据代码变更生成符合规范的提交信息。
 
 ## 功能特性
 
