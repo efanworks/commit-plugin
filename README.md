@@ -18,12 +18,6 @@
 /commit-plugin:commit
 ```
 
-或指定语言：
-
-```
-/commit-plugin:commit <english/chinese>
-```
-
 ## 参考
 
 - [Google Engineering Practices - CL Descriptions](https://github.com/google/eng-practices/blob/master/review/developer/cl-descriptions.md)
