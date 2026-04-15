@@ -25,7 +25,7 @@ allowed-tools: Read Write Bash
 1. 根据 context-status 判断 stage 区域是否有内容，为 0 表示无内容，1 表示有内容。无内容则放弃本次提交，并提示用户“没有可提交的变更”
 2. Use cl-descriptions.md in this skill directory for the commit message rules
 3. Generate commit message based on context-diff
-4. 将 commit message 展示给用户查看，并**使用 AskUserQuestion 工具**向用户显示以下选择：
+4. 将 commit message 输出，并**使用 AskUserQuestion 工具**向用户显示以下选择：
 
 - 确认（直接提交）
 - 继续修改（提供修改建议）
