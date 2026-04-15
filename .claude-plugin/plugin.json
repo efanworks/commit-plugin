@@ -1,0 +1,8 @@
+{
+  "name": "commit-plugin",
+  "description": "Automatically generate commit messages based on code changes, and commit your changes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "efanworks"
+  }
+}
