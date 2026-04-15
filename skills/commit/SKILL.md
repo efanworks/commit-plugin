@@ -5,24 +5,9 @@ disable-model-invocation: true
 allowed-tools: Read Write Bash
 ---
 
-## Parameters
-
-- language: commit message language (chinese/english)
-
-## Changes Context
-
-- context-status:
-
-```!
-  git diff --cached --quiet
-  echo $?
-```
-
-- context-diff: !`git diff --staged`
-
 ## Generate git commit message （使用 $ARGUMENTS 作为语言，默认语言 chinese 简体中文）
 
-1. 根据 context-status 判断 stage 区域是否有内容，为 0 表示无内容，1 表示有内容。无内容则放弃本次提交，并提示用户“没有可提交的变更”
+1. 判断 stage 区域是否有内容，无内容则放弃本次提交，并提示用户“没有可提交的变更”
 2. Use cl-descriptions.md in this skill directory for the commit message rules
 3. Generate commit message based on context-diff
 4. 将 commit message 输出，并**使用 AskUserQuestion 工具**向用户显示以下选择：
