@@ -1,6 +1,6 @@
 {
   "name": "commit-plugin",
-  "description": "Automatically generate commit messages based on code changes, and commit your changes.",
+  "description": "Create a git commit, automatically generate commit messages",
   "version": "1.0.0",
   "author": {
     "name": "efanworks"
